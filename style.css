@@ -628,7 +628,7 @@ footer .social a:hover {
     text-align: left;
     position: absolute;
     top: 14.25rem;
-    right: 20rem;
+    left: 35rem;
     font-size: 1.2rem;
     color: #0a192c;
   }
