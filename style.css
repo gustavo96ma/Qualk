@@ -561,8 +561,8 @@ footer .social a:hover {
 
   .section header,
   #testimonials header {
-    max-width: 52rem;
-    text-align: center;
+    max-width: 68rem;
+    text-align: left;
     margin-left: auto;
     margin-right: auto;
   }
@@ -641,6 +641,10 @@ footer .social a:hover {
     visibility: none;
   }
 
+  #services .text{
+    text-align: left;
+  }
+
   #about .container {
     margin: 0 auto;
     grid-auto-flow: column;
@@ -659,7 +663,7 @@ footer .social a:hover {
     padding-left: 5rem;
     padding-right: 5rem;
     box-shadow: 0px 0px 12px rgba(0, 0, 0, 0.08);
-    border-bottom: 0.25rem solid var(--base-color);
+    border-bottom: none;
     border-radius: 0.25rem 0.25rem 0 0;
     text-align: center;
   }
@@ -712,8 +716,10 @@ footer .social a:hover {
   footer .logo {
     font-size: 2.25rem;
   }
-}
 
+  
+
+  
 /* large devices: > 1023 */
 /* large devices: > 992 */
 /*
